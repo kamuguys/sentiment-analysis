@@ -1,0 +1,203 @@
+{
+  "businesses": [
+    {
+      "id": "green-valley-farms",
+      "name": "Green Valley Farms",
+      "comments": [
+        { "text": "Product yabwino but delivery slow", "sentiment": "positive", "aspect": "Delivery", "confidence": 0.88, "lang": "code-switch" },
+        { "text": "Great quality and value", "sentiment": "positive", "aspect": "Product Quality", "confidence": 0.95, "lang": "English" },
+        { "text": "Late delivery and no update", "sentiment": "negative", "aspect": "Delivery", "confidence": 0.86, "lang": "English" },
+        { "text": "Okay experience overall", "sentiment": "neutral", "aspect": "Other", "confidence": 0.6, "lang": "English" }
+      ],
+      "kpiTrend": [
+        { "name": "05 Jul", "v": 72 },
+        { "name": "12 Jul", "v": 88 },
+        { "name": "19 Jul", "v": 81 },
+        { "name": "26 Jul", "v": 93 },
+        { "name": "02 Aug", "v": 86 }
+      ],
+      "sentimentTrend": {
+        "Weekly": [
+          { "name": "Mon", "positive": 64, "negative": 18, "neutral": 18 },
+          { "name": "Tue", "positive": 72, "negative": 15, "neutral": 13 },
+          { "name": "Wed", "positive": 69, "negative": 20, "neutral": 11 },
+          { "name": "Thu", "positive": 80, "negative": 10, "neutral": 10 },
+          { "name": "Fri", "positive": 76, "negative": 13, "neutral": 11 }
+        ],
+        "Monthly": [
+          { "name": "Week 1", "positive": 70, "negative": 15, "neutral": 15 },
+          { "name": "Week 2", "positive": 74, "negative": 13, "neutral": 13 },
+          { "name": "Week 3", "positive": 78, "negative": 11, "neutral": 11 },
+          { "name": "Week 4", "positive": 72, "negative": 14, "neutral": 14 }
+        ],
+        "Quarterly": [
+          { "name": "Q1", "positive": 69, "negative": 18, "neutral": 13 },
+          { "name": "Q2", "positive": 73, "negative": 16, "neutral": 11 },
+          { "name": "Q3", "positive": 77, "negative": 12, "neutral": 11 },
+          { "name": "Q4", "positive": 81, "negative": 10, "neutral": 9 }
+        ]
+      },
+      "aspects": [
+        { "name": "Product Quality", "pos": 63, "neg": 18, "neu": 19 },
+        { "name": "Pricing", "pos": 50, "neg": 27, "neu": 23 },
+        { "name": "Customer Service", "pos": 57, "neg": 21, "neu": 22 },
+        { "name": "Delivery", "pos": 48, "neg": 35, "neu": 17 },
+        { "name": "Other", "pos": 40, "neg": 32, "neu": 28 }
+      ],
+      "warnings": [
+        { "title": "Delivery delay spike", "detail": "Delivery-related complaints rose 32% this week.", "severity": "High" },
+        { "title": "Negative PR trend", "detail": "Bemba negative sentiment is trending higher.", "severity": "Medium" },
+        { "title": "Price sensitivity rising", "detail": "Pricing feedback is increasingly negative.", "severity": "Low" }
+      ],
+      "languages": [
+        { "name": "English", "value": 56 },
+        { "name": "Bemba", "value": 18 },
+        { "name": "Nyanja", "value": 14 },
+        { "name": "Code-switching", "value": 12 }
+      ],
+      "modelMetrics": [
+        { "label": "Accuracy", "value": 0.86 },
+        { "label": "Precision", "value": 0.84 },
+        { "label": "Recall", "value": 0.82 },
+        { "label": "F1 Score", "value": 0.83 }
+      ],
+      "modelComparison": [
+        { "model": "AfriBERTa", "score": 0.86 },
+        { "model": "Naive Bayes", "score": 0.74 },
+        { "model": "SVM", "score": 0.78 }
+      ]
+    },
+    {
+      "id": "smart-trade-co",
+      "name": "Smart Trade Co.",
+      "comments": [
+        { "text": "Pricing is fair but service needs improvement", "sentiment": "neutral", "aspect": "Pricing", "confidence": 0.76, "lang": "English" },
+        { "text": "Customer service was very responsive", "sentiment": "positive", "aspect": "Customer Service", "confidence": 0.9, "lang": "English" },
+        { "text": "Some products arrived damaged", "sentiment": "negative", "aspect": "Product Quality", "confidence": 0.83, "lang": "English" }
+      ],
+      "kpiTrend": [
+        { "name": "05 Jul", "v": 66 },
+        { "name": "12 Jul", "v": 68 },
+        { "name": "19 Jul", "v": 72 },
+        { "name": "26 Jul", "v": 70 },
+        { "name": "02 Aug", "v": 75 }
+      ],
+      "sentimentTrend": {
+        "Weekly": [
+          { "name": "Mon", "positive": 58, "negative": 25, "neutral": 17 },
+          { "name": "Tue", "positive": 62, "negative": 22, "neutral": 16 },
+          { "name": "Wed", "positive": 60, "negative": 24, "neutral": 16 },
+          { "name": "Thu", "positive": 65, "negative": 20, "neutral": 15 },
+          { "name": "Fri", "positive": 64, "negative": 21, "neutral": 15 }
+        ],
+        "Monthly": [
+          { "name": "Week 1", "positive": 60, "negative": 22, "neutral": 18 },
+          { "name": "Week 2", "positive": 63, "negative": 20, "neutral": 17 },
+          { "name": "Week 3", "positive": 61, "negative": 21, "neutral": 18 },
+          { "name": "Week 4", "positive": 64, "negative": 19, "neutral": 17 }
+        ],
+        "Quarterly": [
+          { "name": "Q1", "positive": 59, "negative": 23, "neutral": 18 },
+          { "name": "Q2", "positive": 62, "negative": 21, "neutral": 17 },
+          { "name": "Q3", "positive": 63, "negative": 20, "neutral": 17 },
+          { "name": "Q4", "positive": 65, "negative": 19, "neutral": 16 }
+        ]
+      },
+      "aspects": [
+        { "name": "Product Quality", "pos": 58, "neg": 24, "neu": 18 },
+        { "name": "Pricing", "pos": 54, "neg": 23, "neu": 23 },
+        { "name": "Customer Service", "pos": 62, "neg": 18, "neu": 20 },
+        { "name": "Delivery", "pos": 44, "neg": 38, "neu": 18 },
+        { "name": "Other", "pos": 46, "neg": 32, "neu": 22 }
+      ],
+      "warnings": [
+        { "title": "Damaged product reports", "detail": "Quality issues spike for incoming shipments.", "severity": "Medium" },
+        { "title": "Price sensitivity rising", "detail": "Customers are reacting to coupon removal.", "severity": "Low" },
+        { "title": "Late service follow-ups", "detail": "Customer service callback rates are slipping.", "severity": "Low" }
+      ],
+      "languages": [
+        { "name": "English", "value": 68 },
+        { "name": "Bemba", "value": 12 },
+        { "name": "Nyanja", "value": 10 },
+        { "name": "Code-switching", "value": 10 }
+      ],
+      "modelMetrics": [
+        { "label": "Accuracy", "value": 0.82 },
+        { "label": "Precision", "value": 0.8 },
+        { "label": "Recall", "value": 0.78 },
+        { "label": "F1 Score", "value": 0.79 }
+      ],
+      "modelComparison": [
+        { "model": "AfriBERTa", "score": 0.82 },
+        { "model": "Naive Bayes", "score": 0.7 },
+        { "model": "SVM", "score": 0.75 }
+      ]
+    },
+    {
+      "id": "lusaka-retail-hub",
+      "name": "Lusaka Retail Hub",
+      "comments": [
+        { "text": "Nyanja support was useful when placing orders", "sentiment": "positive", "aspect": "Customer Service", "confidence": 0.9, "lang": "Nyanja" },
+        { "text": "Prices are too high for small business buyers", "sentiment": "negative", "aspect": "Pricing", "confidence": 0.82, "lang": "English" },
+        { "text": "Delivery arrived earlier than expected", "sentiment": "positive", "aspect": "Delivery", "confidence": 0.92, "lang": "English" }
+      ],
+      "kpiTrend": [
+        { "name": "05 Jul", "v": 80 },
+        { "name": "12 Jul", "v": 82 },
+        { "name": "19 Jul", "v": 78 },
+        { "name": "26 Jul", "v": 85 },
+        { "name": "02 Aug", "v": 88 }
+      ],
+      "sentimentTrend": {
+        "Weekly": [
+          { "name": "Mon", "positive": 68, "negative": 17, "neutral": 15 },
+          { "name": "Tue", "positive": 70, "negative": 16, "neutral": 14 },
+          { "name": "Wed", "positive": 69, "negative": 18, "neutral": 13 },
+          { "name": "Thu", "positive": 74, "negative": 14, "neutral": 12 },
+          { "name": "Fri", "positive": 76, "negative": 13, "neutral": 11 }
+        ],
+        "Monthly": [
+          { "name": "Week 1", "positive": 71, "negative": 15, "neutral": 14 },
+          { "name": "Week 2", "positive": 72, "negative": 14, "neutral": 14 },
+          { "name": "Week 3", "positive": 70, "negative": 16, "neutral": 14 },
+          { "name": "Week 4", "positive": 75, "negative": 13, "neutral": 12 }
+        ],
+        "Quarterly": [
+          { "name": "Q1", "positive": 70, "negative": 16, "neutral": 14 },
+          { "name": "Q2", "positive": 72, "negative": 15, "neutral": 13 },
+          { "name": "Q3", "positive": 74, "negative": 14, "neutral": 12 },
+          { "name": "Q4", "positive": 78, "negative": 12, "neutral": 10 }
+        ]
+      },
+      "aspects": [
+        { "name": "Product Quality", "pos": 61, "neg": 20, "neu": 19 },
+        { "name": "Pricing", "pos": 48, "neg": 30, "neu": 22 },
+        { "name": "Customer Service", "pos": 65, "neg": 16, "neu": 19 },
+        { "name": "Delivery", "pos": 58, "neg": 22, "neu": 20 },
+        { "name": "Other", "pos": 50, "neg": 28, "neu": 22 }
+      ],
+      "warnings": [
+        { "title": "Pricing pressure", "detail": "Small business buyers are requesting lower pricing tiers.", "severity": "Medium" },
+        { "title": "Nyanja support demand", "detail": "Customers ask for more local language service.", "severity": "Low" },
+        { "title": "Delivery satisfaction high", "detail": "Delivery experience is one of the strongest categories.", "severity": "Low" }
+      ],
+      "languages": [
+        { "name": "English", "value": 50 },
+        { "name": "Bemba", "value": 15 },
+        { "name": "Nyanja", "value": 20 },
+        { "name": "Code-switching", "value": 15 }
+      ],
+      "modelMetrics": [
+        { "label": "Accuracy", "value": 0.88 },
+        { "label": "Precision", "value": 0.86 },
+        { "label": "Recall", "value": 0.85 },
+        { "label": "F1 Score", "value": 0.86 }
+      ],
+      "modelComparison": [
+        { "model": "AfriBERTa", "score": 0.88 },
+        { "model": "Naive Bayes", "score": 0.76 },
+        { "model": "SVM", "score": 0.8 }
+      ]
+    }
+  ]
+}
