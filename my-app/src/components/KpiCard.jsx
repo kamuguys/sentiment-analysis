@@ -1,6 +1,6 @@
 import { LineChart, Line, ResponsiveContainer } from 'recharts'
 
-export default function KpiCard({ title, value, change, data, color = '#22C55E', icon }) {
+export default function KpiCard({ title, value, change, data, color = '#22C55E' }) {
   return (
     <div className="bg-card/60 backdrop-blur-md p-4 rounded-2xl shadow-md border border-white/6">
       <div className="flex items-start justify-between gap-4">
